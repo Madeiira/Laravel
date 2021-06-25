@@ -21,7 +21,17 @@ Route::get('/contactform', function(){
    
 
     $ipaddress = $_SERVER['SERVER_NAME']; // get IP for user
-    //['chave a ser usada como variavel dentro da viel' => $Valor] 
-    $permissao = 0;
-    return view('contactform', ['ipaddress' => $ipaddress, 'bool' => $permissao]);
+    //['key to use in view ' => $value] 
+    $permissao = 0; // bool
+
+    $arr = ["João", "José", "Joseph"];
+
+    return view('contactform', 
+    [
+        'ipaddress' => $ipaddress,
+        'bool'      => $permissao,
+        'nomes'     => $arr
+
+    ]);
+
 }); 

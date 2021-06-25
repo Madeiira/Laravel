@@ -32,6 +32,14 @@
  @else
  <p>Don't have permission to access your IP.</p>
  @endif
+
+ @foreach ($nomes as $nome)
+ 
+    <p> Index:{{$loop->index}}.</p>
+    <p> Name: {{ $nome }}.</p>
+    
+@endforeach
+     
  </center>
 </html> 
 
