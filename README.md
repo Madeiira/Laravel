@@ -13,6 +13,6 @@
 
 
 ## Pasta com o codigo:
-[CODEPASTE](/hdcevents/resources/views)
+[VIEWS](/hdcevents/resources/views)
 
 
