@@ -27,7 +27,11 @@
  </form>
  
  <a href="/"> Back to Welcome. </a>
- <p>Your IP:{{ $ipaddress }}</p>
+ @if ($bool == 1)<!--@ to init a blade code and don't necessary {.{}.} to use vars -->
+ <p>Your IP:{{ $ipaddress }}.</p> <!-- {.{}.} to enable code because don't have a @ to use blade code-->
+ @else
+ <p>Don't have permission to access your IP.</p>
+ @endif
  </center>
 </html> 
 
