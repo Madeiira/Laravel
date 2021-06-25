@@ -7,18 +7,18 @@
  <input type="hidden" name="subject" value="Assunto"> 
  <input type="hidden" name="email" value="email@doseudominio">  
  <p> 
- Name:<br /> 
- <input type="text" size="30" name="nome"> 
+
+ <input type="text" size="30" name="nome" placeholder="Name"> 
  </p>   
  
  <p>
- E-mail:<br /> 
- <input type="text" size="30" name="replyto"> 
+
+ <input type="text" size="30" name="replyto" placeholder="E-Mail"> 
  </p>   
  
  <p> 
- Comments:<br /> 
- <input type="text" size="35" name="Comentarios"> 
+
+ <input type="text" size="35" name="Comentarios" placeholder="Comments"> 
  </p>   
  
  <p> 
@@ -30,3 +30,9 @@
  <p>Your IP:{{ $ipaddress }}</p>
  </center>
 </html> 
+
+<style>
+    input{
+        text-align:center;
+    }
+</style>
