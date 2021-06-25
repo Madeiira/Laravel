@@ -18,5 +18,10 @@ Route::get('/', function () {
 });
 
 Route::get('/contactform', function(){
-    return view('contactform');
+   
+
+    $ipaddress = $_SERVER['SERVER_NAME']; // get IP for user
+
+
+    return view('contactform', ['ipaddress' => $ipaddress]);
 }); 

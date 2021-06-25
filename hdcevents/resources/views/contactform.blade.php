@@ -7,7 +7,7 @@
  <input type="hidden" name="subject" value="Assunto"> 
  <input type="hidden" name="email" value="email@doseudominio">  
  <p> 
- Nome:<br /> 
+ Name:<br /> 
  <input type="text" size="30" name="nome"> 
  </p>   
  
@@ -17,15 +17,16 @@
  </p>   
  
  <p> 
- Comentários:<br /> 
+ Comments:<br /> 
  <input type="text" size="35" name="Comentarios"> 
  </p>   
  
  <p> 
- <input type="submit" name="BTEnvia" value="Enviar"> 
- <input type="reset" name="BTApaga" value="Apagar"> </p> 
+ <input type="submit" name="BTEnvia" value="Send"> 
+ <input type="reset" name="BTApaga" value="Erase"> </p> 
  </form>
  
  <a href="/"> Back to Welcome. </a>
+ <p>Your IP:{{ $ipaddress }}</p>
  </center>
 </html> 
