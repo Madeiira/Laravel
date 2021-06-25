@@ -1,5 +1,6 @@
 <html>
 <head><meta charset="UTF-8"></head>
+<center>
 <form action="" method=""> 
  <input type="hidden" name="recipient" value="exemplo@gmail.com"> 
  <input type="hidden" name="redirect" value="http://seudominio."> 
@@ -25,4 +26,6 @@
  <input type="reset" name="BTApaga" value="Apagar"> </p> 
  </form>
  
+ <a href="/"> Back to Welcome. </a>
+ </center>
 </html> 
