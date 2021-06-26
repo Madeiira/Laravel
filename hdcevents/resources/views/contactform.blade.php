@@ -1,8 +1,11 @@
-<html >
-<head><meta charset="UTF-8">
-<link rel="stylesheet" href="/css/style.css">
-<script src="/js/script.js"></script>
-</head>
+
+@extends('layouts.main')
+
+@section('title', 'Project Larav')
+    
+@section('content')
+    
+
 <center>
 <form action="" method=""> 
  <input type="hidden" name="recipient" value="exemplo@gmail.com"> 
@@ -42,5 +45,6 @@
     <p> Name: {{ $nome }}.</p>
     
 @endforeach
- </center>
-</html> 
+</center>
+
+@endsection

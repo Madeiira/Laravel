@@ -34,4 +34,9 @@ Route::get('/contactform', function(){
 
     ]);
 
+    
 }); 
+
+Route::get('/products', function(){
+    return view('products');
+});
