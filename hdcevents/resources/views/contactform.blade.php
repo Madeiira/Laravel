@@ -1,5 +1,8 @@
-<html>
-<head><meta charset="UTF-8"></head>
+<html >
+<head><meta charset="UTF-8">
+<link rel="stylesheet" href="/css/style.css">
+<script src="/js/script.js"></script>
+</head>
 <center>
 <form action="" method=""> 
  <input type="hidden" name="recipient" value="exemplo@gmail.com"> 
@@ -28,9 +31,9 @@
  
  <a href="/"> Back to Welcome. </a>
  @if ($bool == 1)<!--@ to init a blade code and don't necessary {.{}.} to use vars -->
- <p>Your IP:{{ $ipaddress }}.</p> <!-- {.{}.} to enable code because don't have a @ to use blade code-->
+ <h4>Your IP:{{ $ipaddress }}</h4> <!-- {.{}.} to enable code because don't have a @ to use blade code-->
  @else
- <p>Don't have permission to access your IP.</p>
+ <h3>Don't have permission to access your IP.</h3>
  @endif
 
  @foreach ($nomes as $nome)
@@ -39,12 +42,5 @@
     <p> Name: {{ $nome }}.</p>
     
 @endforeach
-     
  </center>
 </html> 
-
-<style>
-    input{
-        text-align:center;
-    }
-</style>

@@ -22,7 +22,7 @@ Route::get('/contactform', function(){
 
     $ipaddress = $_SERVER['SERVER_NAME']; // get IP for user
     //['key to use in view ' => $value] 
-    $permissao = 0; // bool
+    $permissao = 1; // bool
 
     $arr = ["João", "José", "Joseph"];
 
