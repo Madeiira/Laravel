@@ -8,10 +8,12 @@
 
 <center>
 <form action="" method=""> 
- <input type="hidden" name="recipient" value="exemplo@gmail.com"> 
+ <!-- <input type="hidden" name="recipient" value="exemplo@gmail.com"> 
  <input type="hidden" name="redirect" value="http://seudominio."> 
  <input type="hidden" name="subject" value="Assunto"> 
  <input type="hidden" name="email" value="email@doseudominio">  
+ <input type="hidden" name="name" value="name">  
+ -->
  <p> 
 
  <input type="text" size="30" name="nome" placeholder="Name"> 

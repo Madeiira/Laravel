@@ -1,4 +1,10 @@
+#navbar img{
+    width: 50px;
+}
 
+input{
+    text-align:center;
+}
 
 *{
     font-family: 'OpenSans';
