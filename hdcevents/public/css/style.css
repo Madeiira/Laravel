@@ -1,11 +1,35 @@
 #navbar img{
     width: 50px;
 }
-
+body{
+    background-color: slategrey;
+}
 input{
     text-align:center;
 }
 
 *{
     font-family: 'OpenSans';
+    color: white;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light{
+    align-items: center;
+    text-align: center;
+
+}
+html, body {
+    height:100%;
+}
+
+footer#footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+}
+
+a.ev{
+
+    color: white;
+
 }

@@ -22,37 +22,40 @@
     </head>
    <body>
         
-       <header> 
+       <header id="header"> 
 
         <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="collapse navbar-collapse" id="navbar">
+            <div class="collapse navbar-collapse" id="navbar" >
              <a href="/" class="navbar-brand">
                 &emsp;<img src="/img/logo_lr.png" alt="Lr Proj">
              </a>
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a href="/" class="nav-link">Eventos</a>
+                        <a class="ev" href="/" class="nav-link"> Eventos </a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="ev" href="/events/create" class="nav-link">&ensp; Criar Eventos </a>
                     </li>
                     <li class="nav-item">
-                        <a href="/" class="nav-link">Criar Eventos</a>
+                        <a class="ev" href="/" class="nav-link">&ensp; Entrar </a>
                     </li>
                     <li class="nav-item">
-                        <a href="/" class="nav-link">Entrar</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="/" class="nav-link">Cadastrar</a>
+                        <a class="ev" href="/" class="nav-link">&ensp; Cadastrar </a>
                     </li>
                 </ul>
             </div>
         </nav>
+
        </header>
       @yield('content')
-      <footer>
+      <footer id="footer">
          <center>
             <h4>
                <p >Project Larav &copy; 2021</p>
             </h4>
          </center>
       </footer>
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
    </body>
 </html>
