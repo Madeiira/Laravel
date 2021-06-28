@@ -10,10 +10,14 @@
 
     <h1> Create a Event</h1>
 
-    <form action="/events" method="POST"> 
+    <form action="/events" method="POST" enctype="multipart/form-data"> 
         @csrf
         <div class="forn-group">
-
+            <label for="image">Event image: </label>
+            <input type="file" name="image" id="image" class="from-control-file">
+            <br>
+        </div>
+        <div class="forn-group">
             <label for="title">Event title: </label>
             <input type="text" class="form-control" id="title" name="title" placeholder="Title of Event">
             <br>
