@@ -31,17 +31,17 @@
              </a>
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="ev" href="/" class="nav-link"> Eventos </a>
+                        <a class="btn btn-secundary" href="/" class="nav-link"> Events </a>
                     </li>
                     
                     <li class="nav-item">
-                        <a class="ev" href="/events/create" class="nav-link">&ensp; Criar Eventos </a>
+                        <a class="btn btn-secundary" href="/events/create" class="nav-link">&ensp; Creat Event </a>
                     </li>
                     <li class="nav-item">
-                        <a class="ev" href="/" class="nav-link">&ensp; Entrar </a>
+                        <a class="btn btn-secundary" href="/" class="nav-link">&ensp; Login </a>
                     </li>
                     <li class="nav-item">
-                        <a class="ev" href="/" class="nav-link">&ensp; Cadastrar </a>
+                        <a class="btn btn-secundary" href="/" class="nav-link">&ensp; Register </a>
                     </li>
                 </ul>
             </div>

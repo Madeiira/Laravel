@@ -26,6 +26,17 @@ body {
     background-color: #C28008;
     border-color: #C28008;
   }
+  .btn-secundary {
+    color: #FFF;
+    background-color: firebrick;
+    border: 2px solid black;
+  }
+  
+  .btn-secundary:hover {
+    background-color: #C28008;
+    border-color: #C28008;
+  }
+  
   
   /* navbar */
   #navbar img {
@@ -40,7 +51,7 @@ body {
   
   #navbar a {
     font-size: 14px;
-    color: #757575;
+    color: white;
   }
   
   #navbar a:hover {
